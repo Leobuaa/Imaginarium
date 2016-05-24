@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B31A2C9F1CF4912000A119DE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B31A2C9E1CF4912000A119DE /* main.m */; };
+		B31A2CA21CF4912000A119DE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B31A2CA11CF4912000A119DE /* AppDelegate.m */; };
+		B31A2CA51CF4912000A119DE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B31A2CA41CF4912000A119DE /* ViewController.m */; };
+		B31A2CA81CF4912000A119DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B31A2CA61CF4912000A119DE /* Main.storyboard */; };
+		B31A2CAA1CF4912000A119DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B31A2CA91CF4912000A119DE /* Assets.xcassets */; };
+		B31A2CAD1CF4912000A119DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B31A2CAB1CF4912000A119DE /* LaunchScreen.storyboard */; };
+		B31A2CB81CF4912000A119DE /* ImaginariumTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B31A2CB71CF4912000A119DE /* ImaginariumTests.m */; };
+		B31A2CC31CF4912000A119DE /* ImaginariumUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B31A2CC21CF4912000A119DE /* ImaginariumUITests.m */; };
+		B31A2CD21CF4939B00A119DE /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B31A2CD01CF4939B00A119DE /* ImageViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B31A2CB41CF4912000A119DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B31A2C921CF4912000A119DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B31A2C991CF4912000A119DE;
+			remoteInfo = Imaginarium;
+		};
+		B31A2CBF1CF4912000A119DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B31A2C921CF4912000A119DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B31A2C991CF4912000A119DE;
+			remoteInfo = Imaginarium;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B31A2C9A1CF4912000A119DE /* Imaginarium.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Imaginarium.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B31A2C9E1CF4912000A119DE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B31A2CA01CF4912000A119DE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B31A2CA11CF4912000A119DE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B31A2CA31CF4912000A119DE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B31A2CA41CF4912000A119DE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B31A2CA71CF4912000A119DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B31A2CA91CF4912000A119DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B31A2CAC1CF4912000A119DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B31A2CAE1CF4912000A119DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B31A2CB31CF4912000A119DE /* ImaginariumTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImaginariumTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B31A2CB71CF4912000A119DE /* ImaginariumTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImaginariumTests.m; sourceTree = "<group>"; };
+		B31A2CB91CF4912000A119DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B31A2CBE1CF4912000A119DE /* ImaginariumUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImaginariumUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B31A2CC21CF4912000A119DE /* ImaginariumUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImaginariumUITests.m; sourceTree = "<group>"; };
+		B31A2CC41CF4912000A119DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B31A2CD01CF4939B00A119DE /* ImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ImageViewController.m; path = ../../../../Desktop/ImageViewController.m; sourceTree = "<group>"; };
+		B31A2CD11CF4939B00A119DE /* ImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImageViewController.h; path = ../../../../Desktop/ImageViewController.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B31A2C971CF4912000A119DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B31A2CB01CF4912000A119DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B31A2CBB1CF4912000A119DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B31A2C911CF4912000A119DE = {
+			isa = PBXGroup;
+			children = (
+				B31A2C9C1CF4912000A119DE /* Imaginarium */,
+				B31A2CB61CF4912000A119DE /* ImaginariumTests */,
+				B31A2CC11CF4912000A119DE /* ImaginariumUITests */,
+				B31A2C9B1CF4912000A119DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B31A2C9B1CF4912000A119DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B31A2C9A1CF4912000A119DE /* Imaginarium.app */,
+				B31A2CB31CF4912000A119DE /* ImaginariumTests.xctest */,
+				B31A2CBE1CF4912000A119DE /* ImaginariumUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B31A2C9C1CF4912000A119DE /* Imaginarium */ = {
+			isa = PBXGroup;
+			children = (
+				B31A2CD01CF4939B00A119DE /* ImageViewController.m */,
+				B31A2CD11CF4939B00A119DE /* ImageViewController.h */,
+				B31A2CA01CF4912000A119DE /* AppDelegate.h */,
+				B31A2CA11CF4912000A119DE /* AppDelegate.m */,
+				B31A2CA31CF4912000A119DE /* ViewController.h */,
+				B31A2CA41CF4912000A119DE /* ViewController.m */,
+				B31A2CA61CF4912000A119DE /* Main.storyboard */,
+				B31A2CA91CF4912000A119DE /* Assets.xcassets */,
+				B31A2CAB1CF4912000A119DE /* LaunchScreen.storyboard */,
+				B31A2CAE1CF4912000A119DE /* Info.plist */,
+				B31A2C9D1CF4912000A119DE /* Supporting Files */,
+			);
+			path = Imaginarium;
+			sourceTree = "<group>";
+		};
+		B31A2C9D1CF4912000A119DE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B31A2C9E1CF4912000A119DE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B31A2CB61CF4912000A119DE /* ImaginariumTests */ = {
+			isa = PBXGroup;
+			children = (
+				B31A2CB71CF4912000A119DE /* ImaginariumTests.m */,
+				B31A2CB91CF4912000A119DE /* Info.plist */,
+			);
+			path = ImaginariumTests;
+			sourceTree = "<group>";
+		};
+		B31A2CC11CF4912000A119DE /* ImaginariumUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B31A2CC21CF4912000A119DE /* ImaginariumUITests.m */,
+				B31A2CC41CF4912000A119DE /* Info.plist */,
+			);
+			path = ImaginariumUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B31A2C991CF4912000A119DE /* Imaginarium */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B31A2CC71CF4912000A119DE /* Build configuration list for PBXNativeTarget "Imaginarium" */;
+			buildPhases = (
+				B31A2C961CF4912000A119DE /* Sources */,
+				B31A2C971CF4912000A119DE /* Frameworks */,
+				B31A2C981CF4912000A119DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Imaginarium;
+			productName = Imaginarium;
+			productReference = B31A2C9A1CF4912000A119DE /* Imaginarium.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B31A2CB21CF4912000A119DE /* ImaginariumTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B31A2CCA1CF4912000A119DE /* Build configuration list for PBXNativeTarget "ImaginariumTests" */;
+			buildPhases = (
+				B31A2CAF1CF4912000A119DE /* Sources */,
+				B31A2CB01CF4912000A119DE /* Frameworks */,
+				B31A2CB11CF4912000A119DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B31A2CB51CF4912000A119DE /* PBXTargetDependency */,
+			);
+			name = ImaginariumTests;
+			productName = ImaginariumTests;
+			productReference = B31A2CB31CF4912000A119DE /* ImaginariumTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B31A2CBD1CF4912000A119DE /* ImaginariumUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B31A2CCD1CF4912000A119DE /* Build configuration list for PBXNativeTarget "ImaginariumUITests" */;
+			buildPhases = (
+				B31A2CBA1CF4912000A119DE /* Sources */,
+				B31A2CBB1CF4912000A119DE /* Frameworks */,
+				B31A2CBC1CF4912000A119DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B31A2CC01CF4912000A119DE /* PBXTargetDependency */,
+			);
+			name = ImaginariumUITests;
+			productName = ImaginariumUITests;
+			productReference = B31A2CBE1CF4912000A119DE /* ImaginariumUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B31A2C921CF4912000A119DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Leo Peng";
+				TargetAttributes = {
+					B31A2C991CF4912000A119DE = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = DE6Z84BVT2;
+					};
+					B31A2CB21CF4912000A119DE = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = DE6Z84BVT2;
+						TestTargetID = B31A2C991CF4912000A119DE;
+					};
+					B31A2CBD1CF4912000A119DE = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = DE6Z84BVT2;
+						TestTargetID = B31A2C991CF4912000A119DE;
+					};
+				};
+			};
+			buildConfigurationList = B31A2C951CF4912000A119DE /* Build configuration list for PBXProject "Imaginarium" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B31A2C911CF4912000A119DE;
+			productRefGroup = B31A2C9B1CF4912000A119DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B31A2C991CF4912000A119DE /* Imaginarium */,
+				B31A2CB21CF4912000A119DE /* ImaginariumTests */,
+				B31A2CBD1CF4912000A119DE /* ImaginariumUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B31A2C981CF4912000A119DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B31A2CAD1CF4912000A119DE /* LaunchScreen.storyboard in Resources */,
+				B31A2CAA1CF4912000A119DE /* Assets.xcassets in Resources */,
+				B31A2CA81CF4912000A119DE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B31A2CB11CF4912000A119DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B31A2CBC1CF4912000A119DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B31A2C961CF4912000A119DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B31A2CA51CF4912000A119DE /* ViewController.m in Sources */,
+				B31A2CA21CF4912000A119DE /* AppDelegate.m in Sources */,
+				B31A2CD21CF4939B00A119DE /* ImageViewController.m in Sources */,
+				B31A2C9F1CF4912000A119DE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B31A2CAF1CF4912000A119DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B31A2CB81CF4912000A119DE /* ImaginariumTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B31A2CBA1CF4912000A119DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B31A2CC31CF4912000A119DE /* ImaginariumUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B31A2CB51CF4912000A119DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B31A2C991CF4912000A119DE /* Imaginarium */;
+			targetProxy = B31A2CB41CF4912000A119DE /* PBXContainerItemProxy */;
+		};
+		B31A2CC01CF4912000A119DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B31A2C991CF4912000A119DE /* Imaginarium */;
+			targetProxy = B31A2CBF1CF4912000A119DE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B31A2CA61CF4912000A119DE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B31A2CA71CF4912000A119DE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B31A2CAB1CF4912000A119DE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B31A2CAC1CF4912000A119DE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B31A2CC51CF4912000A119DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B31A2CC61CF4912000A119DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B31A2CC81CF4912000A119DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Imaginarium/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = buaa.Imaginarium;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B31A2CC91CF4912000A119DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Imaginarium/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = buaa.Imaginarium;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B31A2CCB1CF4912000A119DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ImaginariumTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = buaa.ImaginariumTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Imaginarium.app/Imaginarium";
+			};
+			name = Debug;
+		};
+		B31A2CCC1CF4912000A119DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ImaginariumTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = buaa.ImaginariumTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Imaginarium.app/Imaginarium";
+			};
+			name = Release;
+		};
+		B31A2CCE1CF4912000A119DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ImaginariumUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = buaa.ImaginariumUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Imaginarium;
+			};
+			name = Debug;
+		};
+		B31A2CCF1CF4912000A119DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ImaginariumUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = buaa.ImaginariumUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Imaginarium;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B31A2C951CF4912000A119DE /* Build configuration list for PBXProject "Imaginarium" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B31A2CC51CF4912000A119DE /* Debug */,
+				B31A2CC61CF4912000A119DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B31A2CC71CF4912000A119DE /* Build configuration list for PBXNativeTarget "Imaginarium" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B31A2CC81CF4912000A119DE /* Debug */,
+				B31A2CC91CF4912000A119DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B31A2CCA1CF4912000A119DE /* Build configuration list for PBXNativeTarget "ImaginariumTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B31A2CCB1CF4912000A119DE /* Debug */,
+				B31A2CCC1CF4912000A119DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B31A2CCD1CF4912000A119DE /* Build configuration list for PBXNativeTarget "ImaginariumUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B31A2CCE1CF4912000A119DE /* Debug */,
+				B31A2CCF1CF4912000A119DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B31A2C921CF4912000A119DE /* Project object */;
+}
