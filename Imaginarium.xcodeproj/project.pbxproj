@@ -15,7 +15,7 @@
 		B31A2CAD1CF4912000A119DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B31A2CAB1CF4912000A119DE /* LaunchScreen.storyboard */; };
 		B31A2CB81CF4912000A119DE /* ImaginariumTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B31A2CB71CF4912000A119DE /* ImaginariumTests.m */; };
 		B31A2CC31CF4912000A119DE /* ImaginariumUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B31A2CC21CF4912000A119DE /* ImaginariumUITests.m */; };
-		B31A2CD21CF4939B00A119DE /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B31A2CD01CF4939B00A119DE /* ImageViewController.m */; };
+		B3DE0E671CF53885002229BD /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3DE0E651CF53885002229BD /* ImageViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,8 +52,8 @@
 		B31A2CBE1CF4912000A119DE /* ImaginariumUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImaginariumUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B31A2CC21CF4912000A119DE /* ImaginariumUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImaginariumUITests.m; sourceTree = "<group>"; };
 		B31A2CC41CF4912000A119DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B31A2CD01CF4939B00A119DE /* ImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ImageViewController.m; path = ../../../../Desktop/ImageViewController.m; sourceTree = "<group>"; };
-		B31A2CD11CF4939B00A119DE /* ImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImageViewController.h; path = ../../../../Desktop/ImageViewController.h; sourceTree = "<group>"; };
+		B3DE0E651CF53885002229BD /* ImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageViewController.m; sourceTree = "<group>"; };
+		B3DE0E661CF53885002229BD /* ImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageViewController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,8 +104,8 @@
 		B31A2C9C1CF4912000A119DE /* Imaginarium */ = {
 			isa = PBXGroup;
 			children = (
-				B31A2CD01CF4939B00A119DE /* ImageViewController.m */,
-				B31A2CD11CF4939B00A119DE /* ImageViewController.h */,
+				B3DE0E651CF53885002229BD /* ImageViewController.m */,
+				B3DE0E661CF53885002229BD /* ImageViewController.h */,
 				B31A2CA01CF4912000A119DE /* AppDelegate.h */,
 				B31A2CA11CF4912000A119DE /* AppDelegate.m */,
 				B31A2CA31CF4912000A119DE /* ViewController.h */,
@@ -280,7 +280,7 @@
 			files = (
 				B31A2CA51CF4912000A119DE /* ViewController.m in Sources */,
 				B31A2CA21CF4912000A119DE /* AppDelegate.m in Sources */,
-				B31A2CD21CF4939B00A119DE /* ImageViewController.m in Sources */,
+				B3DE0E671CF53885002229BD /* ImageViewController.m in Sources */,
 				B31A2C9F1CF4912000A119DE /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -505,6 +505,7 @@
 				B31A2CC91CF4912000A119DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B31A2CCA1CF4912000A119DE /* Build configuration list for PBXNativeTarget "ImaginariumTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +514,7 @@
 				B31A2CCC1CF4912000A119DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B31A2CCD1CF4912000A119DE /* Build configuration list for PBXNativeTarget "ImaginariumUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +523,7 @@
 				B31A2CCF1CF4912000A119DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
