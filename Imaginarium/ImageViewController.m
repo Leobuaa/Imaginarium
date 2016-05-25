@@ -31,7 +31,6 @@
 
 - (void)setImageURL:(NSURL *)imageURL {
     _imageURL = imageURL;
-    //self.image = [UIImage imageWithData:[NSData dataWithContentsOfURL:self.imageURL]];
     [self startDownloadingImage];
 }
 
@@ -71,6 +70,7 @@
     [self.imageView sizeToFit];
     self.scrollview.contentSize = self.image ? self.image.size : CGSizeZero;
     [self.spinner stopAnimating];
+    self.scrollview.zoomScale = 0.5;
 }
 
 - (void)viewDidLoad {
